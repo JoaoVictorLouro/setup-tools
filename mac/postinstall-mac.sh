@@ -120,7 +120,20 @@ brew cask install android-sdk;
 brew cask fetch macs-fan-control;
 brew cask install macs-fan-control;
 
+brew install watchman;
+
 brew cleanup;
+
+npm install -g react-native-cli;
+npm install -g create-react-app;
+npm install -g create-react-native-app;
+npm install -g @angular/cli;
+npm install -g lerna;
+npm install -g yarn;
+npm install -g http-server;
+npm install -g eslint;
+npm install -g tslint;
+npm install -g prettier;
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
